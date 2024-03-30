@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.menu-card {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-card-logo {
+  height: 250px
+}

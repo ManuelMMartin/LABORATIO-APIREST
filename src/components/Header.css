@@ -1,0 +1,21 @@
+.logo {
+  height: 100px;
+  margin-bottom: 20px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  top: 0;
+  height: 100px;
+  background-color: #333;
+  padding: 10px;
+}

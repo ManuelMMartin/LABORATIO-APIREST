@@ -1,0 +1,96 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input_container {
+  display: flex;
+  gap: 10px;
+}
+
+.input_table,
+.button_table {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.button_table {
+  width: 100px;
+  background-color: #333;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button_sentence {
+  margin-top: 25px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #333;
+}
+
+.elemento {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.SelectRow {
+  cursor: pointer;
+}
+
+.frases *{
+  margin-left: 10px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  cursor: pointer;
+  margin-left: 5px; /* Espacio entre el texto y el icono */
+}
